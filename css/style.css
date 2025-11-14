@@ -1,0 +1,130 @@
+/* style.css */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    font-family: "Verdana", "Helvetica", sans-serif;
+}
+
+* {
+    background-color: rgb(194, 219, 248);
+}
+
+a {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    background-color: inherit;
+}
+
+a:hover{
+    background-color: rgb(252, 208, 143);
+}
+
+h1 {
+    background-color: rgb(252, 208, 143);
+    color:rgb(248, 63, 63);
+    text-align: center;
+    padding: 10px;
+    margin: 15px 70% 30px 0px;
+    border: 1px solid rgba(236, 182, 131, 0.678);
+    border-radius: 3em;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    margin: 0% 30% 5% 30%;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 1px solid brown;
+    border-radius: 1em;
+}
+
+.hachure {
+  background-image: repeating-linear-gradient(
+    -45deg,          /* angle des hachures */
+    #8b8b8b 0,
+    #8b8b8b 1px,       /* épaisseur du trait */
+    transparent 1px,
+    transparent 6px /* espacement entre traits */
+  );
+}
+
+.mp-card{
+    width: 500px;
+    padding: 30px;
+    border: 4px solid black;
+    background-color: rgb(241, 226, 184);
+    border-radius: 1em;
+    margin: 300px auto;
+}
+
+.mp-menu{
+    width: 95%;
+    background-color: inherit;
+    border: 1px solid brown;
+    border-radius: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+.mp-menu ul{
+    list-style: none;
+    padding-left: 0;
+    background-color: inherit;
+
+}
+
+.mp-menu li {
+    display: inline;
+    padding: 5px;
+    text-align: center;
+    background-color: inherit;
+}
+
+.recipe-page h2,
+.recipe-page h3 {
+    width: 50%;
+    border: 1px solid rgba(236, 182, 131, 0.678);
+    border-radius: 1em;
+    background-color: rgb(252, 208, 143);
+    padding: 10px;
+    margin: 20px 20;
+    color: black;
+}
+
+.recipe-page .rp-intro {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+
+.rp-ingredients {
+    width: 50%;
+    font-style: italic;
+    font-size: 16px;
+    border: 5px groove black;
+    border-radius: 1em 0 1em 0;
+    margin: auto;
+}
+
+.rp-ingredients ul {
+    list-style:none;
+}
+
+.rp-ingredients li {
+    padding: 0px 0px 10px 0px;
+}
+
+.recipe-page .rp-steps {
+    width: 70%;
+    margin: auto;
+}
+
+.recipe-page .rp-steps li{
+    padding: 0px 0px 10px 0px;
+}
